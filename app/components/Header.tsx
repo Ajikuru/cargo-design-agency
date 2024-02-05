@@ -1,3 +1,6 @@
+import CustomButton from "./CustomButton"
+
+
 export default function Header() {
   return (
     <div className="w-full h-[1] bg-black">
@@ -16,7 +19,11 @@ export default function Header() {
 
             <div className="flex gap-2 items-center">
                 <p>FAQ</p>
-                <button className="bg-[#276DF1] text-white px-5 py-2 rounded-full">Get Started</button>
+                <CustomButton 
+                title="Get Started"
+                link="#"
+                className="bg-[#276DF1] text-white px-5 py-2 rounded-full"
+                 />        
             </div>
     </header>
     </div>

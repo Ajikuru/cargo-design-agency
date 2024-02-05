@@ -3,7 +3,7 @@ import { Inter, Lexend } from "next/font/google";
 import "./globals.css";
  
 const lexend = Lexend({
-  weight: '400',
+  weight: '600',
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-lexend',
