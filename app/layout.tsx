@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Lexend } from "next/font/google";
 import "./globals.css";
+ 
+const lexend = Lexend({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-lexend',
+})
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${lexend.variable}`} >{children}</body>
     </html>
   );
 }
