@@ -5,7 +5,8 @@ export default function Header() {
   return (
     <div className="w-full h-[1] bg-black">
         <header className="flex items-center w-[92%] bg-black  mx-auto p-4">
-            <div> 
+            <div className="flex gap-2"> 
+                <div className="logo w-[28px] h-[28px] rounded-full"></div>
                 <p className="text-white">| hello@cargo.io</p>
             </div>
 

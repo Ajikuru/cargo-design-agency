@@ -1,0 +1,20 @@
+[
+    {
+        "app": false,
+        "category": "Technology",
+        "title": "Google",
+        "description": "Best Technology results-driven web design and marketing agency."                
+    },
+    {
+        "app": true,
+        "category": "Finance",
+        "title": "Dunkins Tech",
+        "description": "Using proven method of innovation design marketing stratagies"                
+    },
+    {
+        "app": true,
+        "category": "Travel",
+        "title": "Nokia Gadget",
+        "description": "Build Customise and play Using plug data Driven customers."                
+    }
+]

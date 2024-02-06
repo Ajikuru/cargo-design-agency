@@ -6,7 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --text-clr: #EBEBEB
+  --text-clr: #EBEBEB;
+  --logo-rgb: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%); 
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,9 +17,18 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.logo { 
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%); 
+} 
+
+.card-active{
+  @apply bg-[#276DF1] border-0
+}
+
 
 body {
   color: var(--text-clr);
+  background-color: rgb(var(--foreground-rgb));
 
  /*  background: linear-gradient(
       to bottom,
